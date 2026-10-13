@@ -119,4 +119,85 @@
           max-width: 550px;
           width: 100%;
           padding: 12px;
-          font-size:
+          font-size: 15px;
+          margin-top: 15px;
+          text-align: center;
+        }
+      }
+
+      @media (orientation: landscape) and (max-height: 500px) {
+        body {
+          padding: 10px;
+        }
+
+        .encabezado {
+          margin-bottom: 10px;
+        }
+
+        .texto-superior {
+          font-size: 20px;
+        }
+
+        td {
+          display: table-cell;
+          padding: 4px 8px;
+          font-size: 13px;
+          text-align: left;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          width: 250px;
+          padding: 5px;
+        }
+
+        textarea {
+          height: 45px;
+        }
+
+        input[type="submit"] {
+          width: auto;
+          padding: 8px 16px;
+          font-size: 14px;
+          margin-top: 5px;
+        }
+
+        .boton-regresar {
+          margin-top: 12px;
+          padding: 8px 16px;
+          font-size: 13px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="encabezado">
+      <div class="texto-superior">Obtener Más Información</div>
+    </div>
+
+    <center>
+      <form action="">
+        <table>
+          <tbody>
+            <tr>
+              <td>Ingresa tu Nombre:</td>
+              <td><input type="text" placeholder="Francisco" /></td>
+            </tr>
+            <tr>
+              <td>Ingresa tu Apellido:</td>
+              <td><input type="text" placeholder="Castellanos Loreto" /></td>
+            </tr>
+            <tr>
+              <td>Ingresa información:</td>
+              <td>
+                <textarea name="" id=""></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>Ingresa tu correo:</td>
+              <td><input type="email" placeholder="alguien1234@dominio.com" /></td>
+            </tr>
+            <tr>
+              <td>
